@@ -1,0 +1,16 @@
+Abstract Class:
+- Dictionary<string, string> DataStored
+- They both store data.
+- Data gets written to the discs by using a laser.
+- The data on the discs can be read by using a laser.
+- Once loaded, they both report information like name, capacity, contents, and disc type.
+- The data on the discs can be read by using a laser.
+
+CD/DVD Classes:
+() - 
+
+Interface:
+- const CDSpinSpeed
+- const DVDSpinSpeed
+- They both spin.
+- They can both be ejected from their slot.
