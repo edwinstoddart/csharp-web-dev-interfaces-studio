@@ -5,6 +5,7 @@ Abstract Class:
 - The data on the discs can be read by using a laser.
 - Once loaded, they both report information like name, capacity, contents, and disc type.
 - The data on the discs can be read by using a laser.
+- Overwrite data already on the disc.
 
 CD/DVD Classes:
 () - 

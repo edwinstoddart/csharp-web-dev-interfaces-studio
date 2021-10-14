@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SpinningDiscs
 {
-    public interface IOpticalDisk
+    public interface IDisk
     {
         void SpinDisk();
         void StopDisk();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SpinningDiscs
 {
-    public class DVD : BaseDisc, IOpticalDisk
+    public class DVD : DigitalDisc, IDisk
     {
         public DVD(Dictionary<string,string> storedData, int storageCapacity) : base(storedData, storageCapacity) {}
 

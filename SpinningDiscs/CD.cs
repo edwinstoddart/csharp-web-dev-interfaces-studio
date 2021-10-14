@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace SpinningDiscs
 {
-    public class CD : BaseDisc, IOpticalDisk
+    public class CD : DigitalDisc, IDisk
     {
         public CD(Dictionary<string, string> storedData, int storageCapacity) : base(storedData, storageCapacity)
         {
         }
+
         // TODO: Implement your custom interface.
         public void SpinDisk()
         {
